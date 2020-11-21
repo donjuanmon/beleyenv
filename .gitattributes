@@ -1,3 +1,4 @@
 .gitattributes !filter !diff
-config.json filter=git-crypt diff=git-
+config.json filter=git-crypt diff=git-crypt
 test filter=git-crypt diff=git-crypt
+configs/.zshrc filter=git-crypt diff=git-crypt
