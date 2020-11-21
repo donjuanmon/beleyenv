@@ -65,8 +65,8 @@ flatpak override --user --env=GDK_SCALE=3 com.valvesoftware.Steam
 # very old packages.
 ./installScripts/installKitty/index.sh
 ./installScripts/install-zsh.sh
-./installScripts/installSublime/index.sh
-./installScripts/install-todo.sh
+# ./installScripts/installSublime/index.sh
+# ./installScripts/install-todo.sh
 ./installScripts/install-lsd.sh
 ./installScripts/install-fonts.sh
 ./installScripts/install-hostess.sh
