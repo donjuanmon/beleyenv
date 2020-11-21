@@ -20,7 +20,7 @@ export TERMINFO="/usr/local/opt/kitty.app/lib/kitty/terminfo"
 export ZSH_DISABLE_COMPFIX="true"
 
 # Path to oh-my-zsh installation.
-export ZSH="/home/cbeley/.oh-my-zsh"
+export ZSH="/home/gudjonsson/.oh-my-zsh"
 
 if [[ -n $SSH_CONNECTION ]]; then
   export EDITOR='nano'
