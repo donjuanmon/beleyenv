@@ -1,3 +1,2 @@
 .gitattributes !filter !diff
 config.json filter=git-crypt diff=git-crypt
-configs/deluge/hostlist.conf filter=git-crypt diff=git-crypt
