@@ -24,4 +24,16 @@ sudo cp -R temp/kitty.app /usr/local/beleyenv/
 sudo ln -fs /usr/local/beleyenv/kitty.app/bin/kitty /usr/local/bin/
 sudo ln -fs /usr/local/beleyenv/kitty.app/share/applications/kitty.desktop /usr/local/share/applications/
 
+# Fixed path for Icon
+# [Desktop Entry]
+# Version=1.0
+# Type=Application
+# Name=kitty
+# GenericName=Terminal emulator
+# Comment=A fast, feature full, GPU based terminal emulator
+# TryExec=kitty
+# Exec=kitty
+# Icon=/usr/local/share/icons/hicolor/256x256/apps/kitty.png
+# Categories=System;TerminalEmulator;
+
 ./print.sh "Kitty installed!"
