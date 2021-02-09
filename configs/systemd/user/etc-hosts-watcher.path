@@ -1,0 +1,5 @@
+[Path]
+PathModified=/etc/hosts
+
+[Install]
+WantedBy=default.target

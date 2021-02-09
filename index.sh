@@ -42,7 +42,8 @@ sudo apt-get -y dist-upgrade
 sudo apt-get -y install xz-utils nano apt-transport-https flatpak python3-pip \
 	python3-libtorrent python3-gi python3-gi-cairo gir1.2-gtk-3.0 gir1.2-appindicator3 \
 	python3-dev python3-setuptools git zsh jq shellcheck git-cola imagemagick borgbackup \
-	ca-certificates gnupg-agent software-properties-common vlc traceroute gimp rsync
+	ca-certificates gnupg-agent software-properties-common vlc traceroute gimp rsync \
+	dnsutils dnsmasq
 
 ./print.sh "Installed general apt-get packages!"
 
@@ -88,6 +89,7 @@ sudo yarn global add eslint prettier
 
 # Install packages dependent on user configuration being present first.
 ./installScripts/installBorgTools/index.sh
+./installScripts/install-etc-hosts-watcher.sh
 
 ./print.sh "Hints of what to do next:\n\
  * Run ./devScripts/switch-to-ssh-remote.sh to switch from https to ssh if you are Chris\n\
