@@ -32,8 +32,8 @@ sudo apt update
 # prompting the user to do something.
 sudo apt-get -y install jq libnotify-bin
 
-./configScripts/setup-ssh-keys.sh 
-./configScripts/setup-borg-env.sh
+# ./configScripts/setup-ssh-keys.sh 
+# ./configScripts/setup-borg-env.sh
 
 sudo apt-get -y dist-upgrade
 
@@ -55,10 +55,10 @@ sudo pip3 install deluge thefuck pygments
 
 # Install Flatpak repositories & packages
 sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
-sudo flatpak install -y flathub com.valvesoftware.Steam
+# sudo flatpak install -y flathub com.valvesoftware.Steam
 
 # This may be undesirable on 1080p screens.
-flatpak override --user --env=GDK_SCALE=3 com.valvesoftware.Steam
+# flatpak override --user --env=GDK_SCALE=3 com.valvesoftware.Steam
 
 ./print.sh "Installed flatpak & flatpak packages!"
 
@@ -75,7 +75,7 @@ flatpak override --user --env=GDK_SCALE=3 com.valvesoftware.Steam
 ./installScripts/install-theme.sh
 ./installScripts/install-node.sh
 ./installScripts/install-lazygit.sh
-./installScripts/install-delta.sh
+# ./installScripts/install-delta.sh
 
 # Install yarn dependencies
 sudo yarn global add eslint prettier
