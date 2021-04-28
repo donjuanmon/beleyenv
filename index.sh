@@ -60,7 +60,7 @@ sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub
 # This may be undesirable on 1080p screens.
 # flatpak override --user --env=GDK_SCALE=3 com.valvesoftware.Steam
 
-./print.sh "Installed flatpak & flatpak packages!"
+# ./print.sh "Installed flatpak & flatpak packages!"
 
 # Package installs that require more effort -- mostly because debian LTS tends to have
 # very old packages.
